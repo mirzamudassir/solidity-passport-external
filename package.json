@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release",
+    "test": "forge test --hardhat"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.1",
+    "@openzeppelin/contracts-upgradeable": "^4.9.1",
+    "@thirdweb-dev/contracts": "^3",
+    "@thirdweb-dev/sdk": "^3.10.28",
+    "chai": "^4.3.7",
+    "erc721a-upgradeable": "^3.3.0",
+    "hardhat-contract-sizer": "^2.10.0",
+    "web3": "^4.0.2",
+    "zksync-web3": "^0.14.3"
+  },
+  "version": "0.0.1"
+}
